@@ -1,0 +1,25 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "MiPushFOSS",
+	owner: "xiaomi",
+	apk: "product/priv-app/MiPushFOSS/MiPushFOSS.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: true,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "BaiduLocation",
+	owner: "xiaomi",
+	apk: "product/app/BaiduLocation/BaiduLocation.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <privapp-permissions package="com.xiaomi.xmsf">
+    <permission name="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+    <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <permission name="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"/>
+    <permission name="com.xiaomi.permission.SEND_PUSH"/>
+    <permission name="android.permission.INTERNET"/>
+    <permission name="android.permission.READ_PHONE_STATE"/>
+    <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission name="android.permission.GET_ACCOUNTS"/>
+    <permission name="android.permission.FOREGROUND_SERVICE"/>
+    <permission name="android.permission.UPDATE_APP_OPS_STATS" />
+    <permission name="android.permission.PACKAGE_USAGE_STATS" />
+    <permission name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <permission name="android.permission.BIND_JOB_SERVICE" />
+    <permission name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <permission name="com.xiaomi.xmsf.permission.NOTIFICATION_ACTIVE" />
+  </privapp-permissions>
+</permissions>
