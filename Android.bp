@@ -3,7 +3,7 @@ soong_namespace {
 
 android_app_import {
 	name: "MiPushFOSS",
-	owner: "xiaomi",
+	owner: "null",
 	apk: "product/priv-app/MiPushFOSS/MiPushFOSS.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -15,7 +15,7 @@ android_app_import {
 
 android_app_import {
 	name: "BaiduLocation",
-	owner: "xiaomi",
+	owner: "null",
 	apk: "product/app/BaiduLocation/BaiduLocation.apk",
 	certificate: "platform",
 	dex_preopt: {
